@@ -3,7 +3,7 @@ import Container from "../../components/Container";
 import Col from "../../components/Col";
 import Row from "../../components/Row";
 
-function Signup() {
+function Portfolio() {
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
 
@@ -55,4 +55,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Portfolio;

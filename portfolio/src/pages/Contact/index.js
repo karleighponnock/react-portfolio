@@ -7,7 +7,7 @@ import ArticleContext from "../../utils/ArticleContext";
 import API from "../../utils/API";
 import useDebounce from "../../utils/debounceHook";
 
-function Main() {
+function Contact() {
   const [articleState, setArticleState] = useState({
     title: "",
     url: ""
@@ -68,4 +68,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Contact;
