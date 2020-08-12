@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import Card from "../../components/Card"
+
 
 function Contact() {
-   
+
   return (
     <div>
-      <div className="mt-4">
-        <h2>Contact!</h2>
-      </div>
-      
+      <Card>
+        <div className="image-text-container">
+          
+        </div>
+      </Card>
     </div>
   );
 }
-
 
 export default Contact;

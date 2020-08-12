@@ -1,13 +1,17 @@
 import React, { useState } from "react";
+import Card from "../../components/Card"
+
 
 function Portfolio() {
- 
   return (
     <div>
-      <div className="mt-4">
-        <h2>Portfolio!</h2>
-      </div>
-      
+      <Card>
+           <div className="image-text-container">
+           
+          
+         
+           </div>
+          </Card>
     </div>
   );
 }

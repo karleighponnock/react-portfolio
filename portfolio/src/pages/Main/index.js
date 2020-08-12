@@ -5,6 +5,7 @@ import "./index.css";
 import Card from "../../components/Card"
 import Container from "../../components/Container"
 import portrait from "../../assets/portrait.PNG"
+import Lists from "../../components/Lists";
 
 
 function Main() {
@@ -16,12 +17,11 @@ function Main() {
           <Card>
            <div className="image-text-container">
             <img className="portrait" src={portrait} />
-            <p className="about"> My name is Karleigh. I am a 24 year old coding student. I live and work in Miami, Florida. My background is
-            in visual arts, however I work across many artistic mediums. I am hoping to take my creative process to the
-            next level by incorperating programming into my tool belt. My portfolio is currently a gallery of paintings
-            done by myself. As I create coding projects I will replace the paintings with my coding portfolio! This is
-            only the begining of my coding journey, come along!
+            <p className="about"> Hello! My name is Karleigh Ponnock I am a dedicated Junior Front-End Web Developer in Miami, Florida. My background is in the visual arts both as a painter and tattoo artist. I have my Bachelor of Fine Arts and post graduation acquired full-stack programming skills such as JavaScript, React, Node, and mySQL through earning a certificate in Full Stack Development through the University of Central Florida. My passion is in the visual user experience. I love dynamic web applications and see the web page much like a canvas that must balance beauty and simplicity. Between HTML frameworks, CSS and front-end Javascript the possibilities are endless. I am self disciplined, passionate and have strong communication skills. Learning is an endless journey to me so any languages or technologies I am not familiar, or efficient with I am excited to pick up and add to my skill set.  I am seeking opportunities to utilize my programming skills in a quality, team-based environment where I can be of value and expand my knowledge as a developer. 
            </p>
+           <div className="list">
+           <Lists />
+           </div>
            </div>
           </Card>
       </div>
