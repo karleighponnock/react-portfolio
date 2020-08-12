@@ -1,71 +1,34 @@
 import React, { useState, useEffect } from "react";
-import Container from "../../components/Container";
-import SearchForm from "../../components/SearchForm";
-import SearchResults from "../../components/SearchResults";
-import Alert from "../../components/Alert";
-import ArticleContext from "../../utils/ArticleContext";
-import API from "../../utils/API";
-import useDebounce from "../../utils/debounceHook";
+import ReactDOM from "react-dom";
+import "../../../src/index.css";
+import "./index.css";
+import Card from "../../components/Card"
+import Container from "../../components/Container"
+import portrait from "../../assets/portrait.PNG"
+
 
 function Main() {
-  const [articleState, setArticleState] = useState({
-    title: "",
-    url: ""
-  });
 
-  const [search, setSearch] = useState("Wikipedia");
-  const [error, setError] = useState("");
-
-  const debouncedSearchTerm = useDebounce(search, 500);
-
-  useEffect(() => {
-    document.title = "Wikipedia Searcher";
-    if (!search) {
-      return;
-    }
-    if (debouncedSearchTerm) {
-      API.searchTerms(search)
-        .then(res => {
-          if (res.data.length === 0) {
-            throw new Error("No results found.");
-          }
-          if (res.data.status === "error") {
-            throw new Error(res.data.message);
-          }
-          setArticleState({
-            title: res.data[1][0],
-            url: res.data[3][0]
-          });
-        })
-        .catch(err => setError(err));
-    }
-  }, [debouncedSearchTerm]);
-
-  const handleInputChange = event => {
-    setSearch(event.target.value);
-  };
-
-  const handleFormSubmit = event => {
-    event.preventDefault();
-  };
   return (
-    <ArticleContext.Provider value={articleState}>
+    <div>
       <div>
-        <Container style={{ minHeight: "100vh" }}>
-          <h1 className="text-center">Search For Anything on Wikipedia</h1>
-          <Alert type="danger" style={{ opacity: error ? 1 : 0, marginBottom: 10 }}>
-            {error}
-          </Alert>
-          <SearchForm
-            handleFormSubmit={handleFormSubmit}
-            handleInputChange={handleInputChange}
-            results={search}
-          />
-          <SearchResults />
-        </Container>
+  
+          <Card>
+           <div className="image-text-container">
+            <img className="portrait" src={portrait} />
+            <p className="about"> My name is Karleigh. I am a 24 year old coding student. I live and work in Miami, Florida. My background is
+            in visual arts, however I work across many artistic mediums. I am hoping to take my creative process to the
+            next level by incorperating programming into my tool belt. My portfolio is currently a gallery of paintings
+            done by myself. As I create coding projects I will replace the paintings with my coding portfolio! This is
+            only the begining of my coding journey, come along!
+           </p>
+           </div>
+          </Card>
       </div>
-    </ArticleContext.Provider>
+
+    </div>
   );
 }
+
 
 export default Main;

@@ -7,28 +7,28 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        Wikipedia Searcher
+        Karleigh Ponnock
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/portfolio"
               className={
-                window.location.pathname === "/" || window.location.pathname === "/home"
+                window.location.pathname === "/portfolio" || window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              Home
+              Portfolio
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/signup"
-              className={window.location.pathname === "/signup" ? "nav-link active" : "nav-link"}
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
-              Sign Up
+             Contact
             </Link>
           </li>
         </ul>

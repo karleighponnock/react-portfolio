@@ -1,0 +1,13 @@
+.portrait{
+   height: 100%;
+   width: 30%;
+    
+}
+
+.image-text-container{
+    display: flex;
+}
+
+.about{
+   padding: 30px;
+}
