@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import "../../../src/index.css";
 import "./index.css";
 import Card from "../../components/Card"
-import Container from "../../components/Container"
 import Portrait from "../../assets/portrait.jpg"
 import Lists from "../../components/Lists";
 
