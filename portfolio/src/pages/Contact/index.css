@@ -1,4 +1,47 @@
 .links{
-    padding: 10px;
+   padding: 20px;
+   float: left;
+   color: rgb(255, 0, 0);
+   text-shadow:0 0 10px rgb(255, 0, 0);
    
+
 }
+
+.sites{
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0 0 20px black;
+    top: 0;
+    left: 70%;
+    margin-right: 10px;
+    font-size: 30px;
+
+
+}
+
+.links:hover{
+    color: rgba(255, 255, 255, 0.658);
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+}
+
+.email{
+    clear: both;
+   margin-top: 25px;
+   font-size: 35px;
+    padding: 3px;
+    color: rgb(255, 0, 0);
+    text-shadow:0 0 10px rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0 0 30px black;
+    margin-left: 25%;
+}
+
+.email:hover{
+    color: rgba(255, 255, 255, 0.726);
+text-shadow: black;
+text-shadow: 0 0 5px rgba(255, 0, 0, 0.699);
+}
+
+.image-text-container{
+    float: right;
+}
+
