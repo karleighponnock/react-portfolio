@@ -1,7 +1,6 @@
 import React, { Component, useState } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import Card from "../../components/Card"
 import Projects from "../../components/Carosel"
+import "../../../src/index.css";
 
 function Portfolio() {
   const [project, setProject] = useState(1)
@@ -13,8 +12,6 @@ function Portfolio() {
       <Projects
         project={project}
         setProject={setProject}
-        // example prop
-        name={"Your Name"}
       />
     </div>
   );
