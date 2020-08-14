@@ -6,7 +6,7 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg text">
-      <Link className="navbar-brand text" to="/">
+      <Link className="navbar-brand text" to="react-portfolio/">
         Karleigh Ponnock
       </Link>
       <div>
@@ -15,7 +15,7 @@ function Navbar() {
             <Link
               to="/portfolio"
               className={
-                window.location.pathname === "/portfolio" || window.location.pathname === "/home"
+                window.location.pathname === "/portfolio" || window.location.pathname === "react-portfolio/"
                   ? "nav-link active text"
                   : "nav-link text"
               }
