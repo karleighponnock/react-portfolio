@@ -1,17 +1,14 @@
 import React from "react";
 import Card from "../../components/Card"
-import ProjOne from "../../assets/art-project.png"
-import ProjTwo from "../../assets/house.png"
 import "./style.css";
 
 const Projects = ({ project, setProject, name }) => {
     if (project === 1) {
         return (
 
-            <Card className="projectCard">
+            <Card>
                 <Card>
-                    <iframe className="frame" src={ProjOne}>
-                    </iframe>
+                    <iframe className="frame" src="https://lamcnguyen89.github.io/Project-01--The-Electric-Art-Gallery/" width="100%" height="600px" frameborder="0" scrolling="yes"></iframe>
                 </Card>
                 <button className="browse" onClick={() => setProject(2)}> next </button>
                 <button className="browse" onClick={() => setProject(4)}> back </button>
@@ -20,30 +17,32 @@ const Projects = ({ project, setProject, name }) => {
     } else if (project === 2) {
         return (
             <Card>
-                <Card className="projectCard">
-                    <iframe className="frame" src={ProjTwo}>
-                    </iframe>
+                <Card>
+                    <iframe className="frame" src="https://house-our-heroes.herokuapp.com/" width="100%" height="600px" frameborder="0" scrolling="yes"></iframe>
                 </Card>
-                <button onClick={() => setProject(3)}> > </button>
+                <button className="browse" onClick={() => setProject(3)}> next </button>
+                <button className="browse" onClick={() => setProject(1)}> back </button>
             </Card>
         )
     } else if (project === 3) {
         return (
-            <Card className="projectCard">
-                <Card>
-                    <img src={ProjOne} />
+            <Card>
+                <Card >
+                    <iframe className="frame" src="https://protected-tor-91451.herokuapp.com/" width="100%" height="600px" frameborder="0" scrolling="yes" className="budget"></iframe>
                 </Card>
-                <button onClick={() => setProject(4)}> > </button>
+                <button className="browse" onClick={() => setProject(4)}> next </button>
+                <button className="browse" onClick={() => setProject(2)}> back </button>
             </Card>
 
         )
     } else if (project === 4) {
         return (
-            <Card className="projectCard">
+            <Card>
                 <Card>
-                    <img src={ProjOne} />
+                    <iframe className="frame" src="https://shielded-hamlet-39897.herokuapp.com/" width="100%" height="600px" frameborder="0" scrolling="yes"></iframe>
                 </Card>
-                <button onClick={() => setProject(1)}> > </button>
+                <button className="browse" onClick={() => setProject(1)}> next </button>
+                <button className="browse" onClick={() => setProject(3)}> back </button>
             </Card>
 
         )
