@@ -42,6 +42,8 @@ text-shadow: 0 0 5px rgba(255, 0, 0, 0.699);
 }
 
 .image-text-container{
-    float: right;
+    display: flex;
+    justify-content: center;
 }
+
 

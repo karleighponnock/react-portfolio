@@ -12,21 +12,10 @@ function Main() {
   return (
     <div>
       <Card>
-        
-          <div class="sites">
-            <a className="links" href="https://github.com/karleighponnock" target="_blank">GitHub</a>
-            <a className="links" href="https://www.linkedin.com/in/karleigh-ponnock-3601421aa/" target="_blank">LinkedIn</a>
-            <a className="links"
-              href="https://docs.google.com/document/d/1nhMwVQVr0lIefWRi2h9tlmh3rqfbBwkMO2wttVO6wJk/edit?usp=sharing"
-              target="_blank">Portfolio</a>
-        </div>
-      
-    
         <div className="image-text-container">
-
-
-          <a class="email" href="mailto:KarleighPonnock@gmail.com?subject=E-mail Me! ">
-            E-mail Me</a>
+          
+          <a class="email" href="mailto:KarleighPonnock@gmail.com?subject=Subject">
+            Send an E-mail</a>
         </div>
       </Card>
     </div>
