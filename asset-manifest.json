@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/karleighponnock/react-portfolio/static/css/main.fce8cbbb.chunk.css",
+    "main.js": "/karleighponnock/react-portfolio/static/js/main.daff0ee8.chunk.js",
+    "main.js.map": "/karleighponnock/react-portfolio/static/js/main.daff0ee8.chunk.js.map",
+    "runtime-main.js": "/karleighponnock/react-portfolio/static/js/runtime-main.064425b7.js",
+    "runtime-main.js.map": "/karleighponnock/react-portfolio/static/js/runtime-main.064425b7.js.map",
+    "static/js/2.b7cad495.chunk.js": "/karleighponnock/react-portfolio/static/js/2.b7cad495.chunk.js",
+    "static/js/2.b7cad495.chunk.js.map": "/karleighponnock/react-portfolio/static/js/2.b7cad495.chunk.js.map",
+    "index.html": "/karleighponnock/react-portfolio/index.html",
+    "precache-manifest.3714f402280013f67fbcb2949b48171d.js": "/karleighponnock/react-portfolio/precache-manifest.3714f402280013f67fbcb2949b48171d.js",
+    "service-worker.js": "/karleighponnock/react-portfolio/service-worker.js",
+    "static/css/main.fce8cbbb.chunk.css.map": "/karleighponnock/react-portfolio/static/css/main.fce8cbbb.chunk.css.map",
+    "static/js/2.b7cad495.chunk.js.LICENSE.txt": "/karleighponnock/react-portfolio/static/js/2.b7cad495.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/karleighponnock/react-portfolio/static/media/maze2.f5b0546d.jpg",
+    "static/media/portrait.jpg": "/karleighponnock/react-portfolio/static/media/portrait.9963a811.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.064425b7.js",
+    "static/js/2.b7cad495.chunk.js",
+    "static/css/main.fce8cbbb.chunk.css",
+    "static/js/main.daff0ee8.chunk.js"
+  ]
+}
