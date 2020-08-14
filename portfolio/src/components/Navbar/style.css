@@ -1,19 +1,21 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
- 
 }
 
 .navbar{
   background-color: rgba(0, 0, 0, 0.247);
   box-shadow:0 0 40px red;
-  color: white;
-
+  height: 70px;
 }
 
 .text{
-  color: white;
+  color: rgb(255, 0, 0);
+  text-shadow:0 0 5px rgb(253, 0, 0);
+  font-size: 30px;
+  padding-right: 20px;
 }
 
 .text:hover{
-  color: rgb(255, 0, 0);
+  color: rgba(255, 255, 255, 0.753);
+  text-shadow:0 0 5px rgb(253, 0, 0);
 }
