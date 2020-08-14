@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../../src/index.css";
+import "../../index.css";
 import "./index.css";
 import Card from "../../components/Card"
 import Portrait from "../../assets/portrait.jpg"

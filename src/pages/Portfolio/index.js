@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react';
 import Projects from "../../components/Carosel"
-import "../../../src/index.css";
+import "../../index.css";
 
 function Portfolio() {
   const [project, setProject] = useState(1)
