@@ -4,15 +4,20 @@ import "./style.css";
 function Lists(props) {
     return (
         <div>
-            <h2>Languages</h2>
+            <h2>Skills and Technologies</h2>
             <ul>
                 <li>HTML</li>
-                <li>Javascript</li>
-            </ul>
-            <h2>Technologies</h2>
                 <li>CSS</li>
+                <li>Javascript</li>
                 <li>React</li>
-        
+                <li>Bootstrap</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>API's</li>
+                <li>Heroku</li>
+                <li>Github</li>
+               
+            </ul>
 
             {props.children}
         </div>
