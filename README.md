@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Karleigh Ponnock Portfolio
 
   ## Overview 
-  This project is a simple portfolio using react. The main page is a bio with a photo of myself and a list of my skills. The portfolio page has a few hghlighted projects embedded using iFrame. Each sit can be externally accesses by clicking on the labeled hyperlink above each iFrame. In the bottom left hand corner of the footer links to my Github and LinkedIn can be accessed from any page.
+  This project is a simple portfolio using react. The main page is a bio with a photo of myself and a list of my skills. The portfolio page has a few hghlighted projects embedded using iFrame. Each sit can be externally accesses by clicking on the labeled hyperlink above each iFrame. In the bottom left hand corner of the footer links to my Github and LinkedIn can be accessed from any page. In the center of a footer is a link to open and create a direct e-mail addressed to myself.
 
   ## Table of Contents:
   - [Screenshots_and_GIFs](#Screenshots_and_GIFs)
@@ -19,12 +19,12 @@ Karleigh Ponnock Portfolio
   - [Credits](#Credits)
 
  ## Screenshots_and_GIFs 
-  - ![Screenshot of deployed project](./src/assets/email.png) 
-  - ![Screenshot of deployed project](todolist/public/assets/images/two.png)
-  - ![Screenshot of deployed project](todolist/public/assets/images/three.png)  
-  - ![Screenshot of deployed project](todolist/public/assets/images/four.png)
-  - ![Screenshot of deployed project](todolist/public/assets/images/five.png)  
-  - ![Screenshot of deployed project](todolist/public/assets/images/six.png)
+  - ![Screenshot of deployed project](./src/assets/main.png) 
+  - ![Screenshot of deployed project](./src/assets/port.png) 
+  - ![Screenshot of deployed project](./src/assets/portfolio.png) 
+  - ![Screenshot of deployed project](./src/assets/links.png) 
+  - ![Screenshot of deployed project](./src/assets/email.png)  
+
   
   ## Motivation
   To give employers and clients a place to see my skill set using a number of technologies including <br />
