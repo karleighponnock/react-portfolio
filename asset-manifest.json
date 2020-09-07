@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.548d0573.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c51b1893.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c51b1893.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.70269583.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f793060e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f793060e.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.1d992053.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1d992053.js.map",
     "static/js/2.b7cad495.chunk.js": "/react-portfolio/static/js/2.b7cad495.chunk.js",
     "static/js/2.b7cad495.chunk.js.map": "/react-portfolio/static/js/2.b7cad495.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.6e82e51a18b3044598a67cfa93f651a7.js": "/react-portfolio/precache-manifest.6e82e51a18b3044598a67cfa93f651a7.js",
+    "precache-manifest.e15b7fc22922f2644209cbf0c484a8c3.js": "/react-portfolio/precache-manifest.e15b7fc22922f2644209cbf0c484a8c3.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.548d0573.chunk.css.map": "/react-portfolio/static/css/main.548d0573.chunk.css.map",
+    "static/css/main.70269583.chunk.css.map": "/react-portfolio/static/css/main.70269583.chunk.css.map",
     "static/js/2.b7cad495.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b7cad495.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-portfolio/static/media/maze2.f5b0546d.jpg",
-    "static/media/portrait.jpg": "/react-portfolio/static/media/portrait.9963a811.jpg"
+    "static/media/portrait.jpg": "/react-portfolio/static/media/portrait.01260c35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d992053.js",
     "static/js/2.b7cad495.chunk.js",
-    "static/css/main.548d0573.chunk.css",
-    "static/js/main.c51b1893.chunk.js"
+    "static/css/main.70269583.chunk.css",
+    "static/js/main.f793060e.chunk.js"
   ]
 }
