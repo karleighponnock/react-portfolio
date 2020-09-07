@@ -19,7 +19,7 @@ Karleigh Ponnock Portfolio
   - [Credits](#Credits)
 
  ## Screenshots_and_GIFs 
-  - ![Screenshot of deployed project](todolist/public/assets/images/one.png) 
+  - ![Screenshot of deployed project](./src/assets/email.png) 
   - ![Screenshot of deployed project](todolist/public/assets/images/two.png)
   - ![Screenshot of deployed project](todolist/public/assets/images/three.png)  
   - ![Screenshot of deployed project](todolist/public/assets/images/four.png)
